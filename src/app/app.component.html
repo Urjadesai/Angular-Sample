@@ -1,0 +1,16 @@
+<!-- <p>{{title}}</p> -->
+<h1 [innerHTML] = 'title'></h1>
+
+<h2 [style.background] = "color"></h2>
+
+<button (click) = "callfun()"> Click </button>
+
+
+<nav>
+  <ul>
+    <li><a routerLink = '/home'>Home</a></li>
+    <li><a routerLink = '/about'>About Us</a></li>
+  </ul>
+</nav>
+<router-outlet></router-outlet>
+<app-child></app-child>
